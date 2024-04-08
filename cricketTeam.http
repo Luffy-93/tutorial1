@@ -1,0 +1,23 @@
+GET http://localhost:3000/players/
+
+###
+
+GET http://localhost:3000/players/2/
+
+###
+
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+
+{
+ "playerName": "Himanshu",
+ "jerseyNumber": 35,
+ "role": "No-All-rounder"
+   
+}
+
+###
+
+DELETE http://localhost:3000/players/12
+
